@@ -1,0 +1,205 @@
+﻿.custom-nav {
+    padding: 0 15px;
+    font-size: 1.8rem;
+}
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card-image {
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.pull-right {
+    float: right;
+}
+
+.login-container {
+    max-width: 480px;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.menu-drawer {
+    display: inline-block;
+    padding-right: 80px;
+    cursor: pointer;
+}
+
+.main-menu {
+    width: 215px;
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 1px 4px #868080;
+    background: #fff;
+    margin-left: -248px;
+    transition: margin 0.5s;
+    z-index: 11;
+}
+
+
+
+    .main-menu ul {
+        padding: 0;
+        margin: 0;
+    }
+
+        .main-menu ul li {
+            padding: 10px 15px;
+            list-style-type: none;
+        }
+
+.activeMenu {
+    background-color: #d81b60;
+}
+
+    .activeMenu a {
+        color: #fff !important;
+    }
+
+        .activeMenu a:hover {
+            color: #fff;
+        }
+
+
+.main-menu ul li a {
+    color: #121212;
+}
+
+
+.toggle-accordian {
+    float: right;
+    cursor: pointer;
+}
+
+.chart-content {
+    display: none;
+    width: 100%;
+    height: 0;
+}
+
+.openChartContent {
+    display: block;
+    height: auto;
+    transition: height 0.5s;
+}
+
+:focus {
+    outline: none !important;
+}
+
+.space-align div {
+    padding: 0 2px;
+}
+
+nav .brand-logo {
+    font-size: 1.8rem;
+}
+
+.page-header {
+    color: #ffffff;
+    padding: 0 4px;
+    background: #1a237E;
+    margin: 0 8px 0 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    .main-menu {
+        top: 64px;
+    }
+}
+
+
+
+#TodayDate {
+    display: inline-block;
+    font-size: 1.1rem;
+}
+@media only screen and (max-width: 400px) {
+
+    .brand-logo {
+        font-size: 17px !important;
+    }
+    #TodayDate {
+    display: inline-block;
+    font-size: 11px;
+}
+}
+.page-header > h5{
+
+    font-size:1.3rem;
+}
+
+
+.commentary-txt {
+    background: #1A237E;
+    padding: 0px 19px;
+    color: white;
+    -webkit-transform: rotate(-270deg);
+    transform: rotate(-270deg);
+    letter-spacing: 1px;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+    right: -74px;
+    top: 71px;
+    cursor: pointer;
+}
+
+
+.commentary-details {
+    position: absolute;
+    left: 0;
+    top: 166px;
+    background-color: white;
+    margin-left: -70%;
+    width: 70%;
+    height: auto;
+    float: left;
+    padding: 16px;
+    box-shadow: 1px 1px 6px gray;
+    transition: margin 0.5s;
+}
+
+    .commentary-details span {
+        display: none;
+    }
+
+.openCommentary span {
+    display: block;
+}
+
+.openCommentary {
+    margin: 0px;
+    transition: margin 0.5s;
+}
+
+.page-header ~ md-content {
+    margin-left: 12px;
+}
+
+.card-header {
+         padding: 8px 5px 8px 3px;
+    background: gray;
+    margin: 0 8px 0 20px;
+    color: #fff;
+}
+
+.header{
+    margin-bottom:10px;
+}
+
+md-card md-card-content {
+    display: block;
+    padding: 8px 3px;
+}
+
+.login-container button a{
+    display:block;
+    color:#fff;
+}

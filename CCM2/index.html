@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Chicago Code Company</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="materialize/css/materialize.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/angular-ui/bower-ui-grid/master/ui-grid.min.css" />
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css" />
+
+    <link href="Content/Style.css" rel="stylesheet" />
+    <!---------library files----------------->
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/moment.js"></script>
+    <script src="Scripts/chart.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-touch.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-animate.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="http://ui-grid.info/release/ui-grid-unstable.js"></script>
+    
+    <script src="App/app.js"></script>
+    <script src="App/Controller/USIndexescontroller.js"></script>
+    <script src="App/Controller/loginController.js"></script>
+    <script src="Scripts/home.js"></script>
+    <script src="App/Controller/CurrenciesController.js"></script>
+    <script src="App/Controller/GlobalIndicesController.js"></script>
+    <script src="App/Controller/CommoditiesController.js"></script>
+    <script src="App/Controller/TCMarketController.js"></script>
+    <script src="App/Controller/YTDPerformanceController.js"></script>
+    <script src="App/Controller/CommonController.js"></script>
+    
+    <script src="Scripts/moment2.js"></script>
+</head>
+<body ng-app="mainApp">
+    <div ng-controller="CommonController">
+        <header class="header">
+            <nav>
+                <div class="nav-wrapper custom-nav indigo darken-4">
+                  <!--  <div class="menu-drawer"><i class="fa fa-bars" aria-hidden="true"></i></div>-->
+                    <span class="brand-logo">MZ Market Update 
+                        <h5 id="TodayDate"></h5>
+                    </span>
+                </div>
+            </nav>
+        </header>
+       
+
+        <div class="">
+            <ng-view></ng-view>
+        </div>
+
+        
+            <div class="commentary-details"><span>The S&P 500 Index closed at an all-time high Monday following last week’s strong jobs report with the other major indexes finishing higher. The S&P 500 rose 7.26 points, or 0.34%, to close at 2,137.16, the Dow Jones Industrial Average closed up 80.19 points, or 0.44%, at 18,226.93 and the Nasdaq Composite Index advanced 31.88 points, or 0.64%, to finish at 4,988.64.
+
+Kansas City Fed President Esther George said the U.S. economy has proven to be "resilient," adding she expects to see "fairly steady pace of growth." Cleveland Fed President Loretta Mester is scheduled to speak after the close. Other Fed officials scheduled to speak this week include St. Louis Fed President James Bullard and Minneapolis Fed President Neel Kashkari.
+
+The Labor Market Conditions Index remained negative as today’s release of the June data came in at -1.9, up from an upwardly revised -3.6 in May.
+
+U.S. oil settled lower, as did Gold futures for August delivery.
+
+The dollar index held about 0.25 percent higher, with the euro near $1.106 and the yen about 2 percent lower versus the greenback. 10-year yields trading near all-time lows as the benchmark yield held near 1.43 percent, while two-year note yields traded around 0.65 percent.
+
+Alcoa reported quarterly earnings and revenue that beat analysts' expectations.
+
+Kimberly-Clark is shutting down its operations in Venezuela due to a slumping economy, which has resulted in significant consumer inflation and goods shortages. 
+
+Sagent Pharmaceuticals will be acquired by Japan's Nichi-Iko Pharmaceutical for $736 million or $21.75 per share in cash.
+
+AstraZeneca is considering a late bid for drugmaker Medivation, according to a report on London's Sunday Times.
+                 </span><div class="commentary-txt">Commentary</div>
+
+            </div>
+                 
+    </div>
+
+
+
+
+    <!---------controllers files----------------->
+
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+﻿[
+  {
+    "Name": "U.S. Dollar per Euro",
+    "Current":"$1.105",
+    "Changeprnt": "0.10%",
+    "status": "Weakened"   
+  },
+   {
+    "Name": "Japanese Yen per U.S. Dollar",
+    "Current": "¥102.615",
+    "Changeprnt": "2.06%",
+    "status": "Strengthened"   
+  } 
+]

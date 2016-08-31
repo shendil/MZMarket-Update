@@ -1,0 +1,39 @@
+﻿[
+  {
+    "Name": "Japan: Nikkei",
+    "Current":"15,708.82",
+    "Change": "601.84",
+    "Changeprnt": "3.98%"   
+  },
+   {
+    "Name": "China: Shanghai",
+    "Current": "3,135.03",
+    "Change": "7.17",
+    "Changeprnt": "0.23%"   
+  },
+   {
+    "Name": "Hong Kong: Hang Seng",
+    "Current": "20,880.50",
+    "Change": "316.33",
+    "Changeprnt": "1.54%"  
+  },
+   {
+    "Name": "Germany:DAX",
+    "Current": "9,833.41",
+    "Change": "203.75",
+    "Changeprnt": "2.12%"  
+  },
+  {
+    "Name": "France:  CAC 40",
+    "Current": "4,264.53",
+    "Change": "73.85",
+    "Changeprnt": "1.76%"  
+  },
+    {
+    "Name": "London:  FTSE",
+    "Current": "6,682.86",
+    "Change": "92.22",
+    "Changeprnt": "1.40%"  
+  }
+  
+]

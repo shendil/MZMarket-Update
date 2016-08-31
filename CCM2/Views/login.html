@@ -1,0 +1,44 @@
+﻿<style>
+    .main-tabs{
+        display:none;
+
+    }
+
+    .commentary-details{
+        display:none;
+
+    }
+
+</style>
+
+<div class=" login-container" >
+
+    <form>
+
+        <md-toolbar class="md-hue-2">
+      <div class="md-toolbar-tools">
+      Sign In
+          </div>
+    </md-toolbar>
+
+        <div layout="column" layout-padding ng-cloak>
+            <br />
+            <md-content class="md-no-momentum">
+   
+    <md-input-container class="md-block">
+      <!-- Use floating placeholder instead of label -->
+     
+      <input ng-model="user.email" type="email" placeholder="UserName" ng-required="true">
+    </md-input-container>
+  
+       <md-input-container class="md-block">
+      <!-- Use floating placeholder instead of label -->
+    
+      <input ng-model="user.email" type="email" placeholder="Password" ng-required="true">
+    </md-input-container>
+       <md-button class="md-raised md-primary pull-right"><a href="#/home">Login</a></md-button>
+  </md-content>
+        </div>
+    </form>
+</div>
+

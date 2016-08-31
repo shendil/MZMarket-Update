@@ -1,0 +1,50 @@
+﻿<div>
+    <div class="page-header">
+    <h5 style="display:inline-block;margin-right:20px">Global Indices </h5> 
+        </div>
+    <md-content layout="row" ng-repeat="card in datacard">
+    <div flex-xs flex-gt-xs="100" layout="column">
+      <md-card>         
+        <md-card-content class="parent-chart">  
+            <div layout="row" class="space-align">        
+          <div flex="40">{{card.Name}}</div>         
+          <div flex="25">{{card.Current}}</div>                 
+          <div flex>{{card.Change}}</div>        
+          <div flex>{{card.Changeprnt}} <span class="toggle-accordian" ng-click="foo($event)"><i class="fa fa-caret-down" aria-hidden="true"></i></span></div>     
+                </div>    
+            <div class="chart-content">
+                 <md-tabs md-dynamic-height md-border-bottom>
+      <md-tab label="Index Intraday">
+        <md-content class="md-padding IndexChart">
+          
+          <canvas id="canvas{{$index}}"></canvas>
+        </md-content>
+      </md-tab>
+      <md-tab label="Sector Performance">
+        <md-content class="md-padding SectorChart">       
+                <canvas id="Sectorgraph{{$index}}"></canvas>
+        </md-content>
+      </md-tab>
+     <!-- <md-tab label="YTD Performance">
+        <md-content class="md-padding YTDChart">
+      <canvas id="YTDgraph{{$index}}"></canvas>
+         </md-content>
+      </md-tab>-->
+                                      <md-tab label="Market Commentary">
+        <md-content class="md-padding ">
+     lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+         </md-content>
+      </md-tab>
+    </md-tabs>
+    </md-tabs>
+               
+                </div>                     
+        </md-card-content>   
+                
+      </md-card>   
+         
+    </div>
+        
+  </md-content>
+</div>
